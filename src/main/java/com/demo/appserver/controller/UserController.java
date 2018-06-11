@@ -1,13 +1,11 @@
 package com.demo.appserver.controller;
 
 import javax.security.auth.message.callback.PrivateKeyCallback.Request;
-import javax.transaction.Status;
 
 import com.demo.appserver.model.AppUser;
 import com.demo.appserver.repository.AppUserRepository;
 import com.demo.appserver.model.SignUpResponse;
 
-import org.apache.coyote.Response;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
