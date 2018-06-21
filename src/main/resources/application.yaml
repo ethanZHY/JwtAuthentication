@@ -1,2 +1,9 @@
-
-      
+spring:
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: chrome.zhangyu@gmail.com
+    password: ethanZHY715?
+    protocol: smtp
+    properties.mail.smtp:
+      starttls.enable: true
